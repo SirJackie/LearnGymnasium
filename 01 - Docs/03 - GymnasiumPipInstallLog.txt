@@ -1,0 +1,205 @@
+
+C:\Windows\system32>pip install "gymnasium[all]"
+Looking in indexes: https://pypi.douban.com/simple/
+Collecting gymnasium[all]
+  Downloading https://pypi.doubanio.com/packages/60/82/3762ef4555791a729ae554e13c011efe5e8347d7eba9ea5ed245a8d1b234/gymnasium-0.28.1-py3-none-any.whl (925 kB)
+     |████████████████████████████████| 925 kB 1.3 MB/s
+Collecting farama-notifications>=0.0.1
+  Downloading https://pypi.doubanio.com/packages/05/2c/ffc08c54c05cdce6fbed2aeebc46348dbe180c6d2c541c7af7ba0aa5f5f8/Farama_Notifications-0.0.4-py3-none-any.whl (2.5 kB)
+Collecting numpy>=1.21.0
+  Downloading https://pypi.doubanio.com/packages/9d/3b/13404993b5dec7403abcf9518569316b5d72d9a3081cd90aca130e6d8b00/numpy-1.24.2-cp39-cp39-win_amd64.whl (14.9 MB)
+     |████████████████████████████████| 14.9 MB 6.8 MB/s
+Collecting typing-extensions>=4.3.0
+  Downloading https://pypi.doubanio.com/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Requirement already satisfied: cloudpickle>=1.2.0 in c:\programdata\anaconda3\lib\site-packages (from gymnasium[all]) (2.0.0)
+Requirement already satisfied: importlib-metadata>=4.8.0 in c:\programdata\anaconda3\lib\site-packages (from gymnasium[all]) (4.8.1)
+Collecting jax-jumpy>=1.0.0
+  Downloading https://pypi.doubanio.com/packages/73/23/338caee543d80584916da20f018aeb017764509d964fd347b97f41f97baa/jax_jumpy-1.0.0-py3-none-any.whl (20 kB)
+Collecting box2d-py==2.3.5
+  Downloading https://pypi.doubanio.com/packages/dd/5a/ad8d3ef9c13d5afcc1e44a77f11792ee717f6727b3320bddbc607e935e2a/box2d-py-2.3.5.tar.gz (374 kB)
+     |████████████████████████████████| 374 kB 6.4 MB/s
+Requirement already satisfied: torch>=1.0.0 in c:\programdata\anaconda3\lib\site-packages (from gymnasium[all]) (1.10.2+cu113)
+Collecting pygame==2.1.3
+  Downloading https://pypi.doubanio.com/packages/e0/71/fbf4dee5e69f7fd2e606c7c91e448d631acece3d61b2c60b7b14a7395e90/pygame-2.1.3-cp39-cp39-win_amd64.whl (10.4 MB)
+     |████████████████████████████████| 10.4 MB 42 kB/s
+Collecting mujoco>=2.3.2
+  Downloading https://pypi.doubanio.com/packages/89/7b/41561cea35c076a498c3d536d9b530ce697ad5bfbf54759ff96f16e3d0fd/mujoco-2.3.3-2-cp39-cp39-win_amd64.whl (3.2 MB)
+     |████████████████████████████████| 3.2 MB 1.1 MB/s
+Collecting shimmy[atari]<1.0,>=0.1.0
+  Downloading https://pypi.doubanio.com/packages/6f/d3/3d3787570f0cb16ba37a4fbd604498d8ee04ce987b7c8564a13d2c1858cf/Shimmy-0.2.1-py3-none-any.whl (25 kB)
+Collecting gymnasium[all]
+  Downloading https://pypi.doubanio.com/packages/85/eb/f365f780a89061575dfb96db6584bb80699bcbe74fcd8c4cc093daea7cb9/gymnasium-0.28.0-py3-none-any.whl (925 kB)
+     |████████████████████████████████| 925 kB 211 kB/s
+  Downloading https://pypi.doubanio.com/packages/35/2a/c63241f1ebc5c44c223d87ec06b08f3269f001dbddbea2fbdca7a85a47e3/gymnasium-0.27.1-py3-none-any.whl (883 kB)
+     |████████████████████████████████| 883 kB 177 kB/s
+Collecting gymnasium-notices>=0.0.1
+  Downloading https://pypi.doubanio.com/packages/d4/88/2520e5851ac21a66e32c7be2f718f3a329253c018a8781e1143fe27c8065/gymnasium_notices-0.0.1-py3-none-any.whl (2.8 kB)
+Collecting gymnasium[all]
+  Downloading https://pypi.doubanio.com/packages/b5/07/3aeb35cdca3d283b95b9542a2a90207c281cdb9f1730d2aada407737b32f/gymnasium-0.27.0-py3-none-any.whl (879 kB)
+     |████████████████████████████████| 879 kB 3.2 MB/s
+  Downloading https://pypi.doubanio.com/packages/e7/d8/95bc547d57d7661b00809b0714dff7690a79cfafdbc4812c93790fea5add/Gymnasium-0.26.3-py3-none-any.whl (836 kB)
+     |████████████████████████████████| 836 kB 51 kB/s
+Requirement already satisfied: numpy>=1.18.0 in c:\programdata\anaconda3\lib\site-packages (from gymnasium[all]) (1.20.3)
+Requirement already satisfied: pygame==2.1.0 in c:\programdata\anaconda3\lib\site-packages (from gymnasium[all]) (2.1.0)
+Collecting lz4>=3.1.0
+  Downloading https://pypi.doubanio.com/packages/44/66/e2e58487ca4fa0f87bc41d7cb92792800fde873e2af6c8b8d3db5e8992ee/lz4-4.3.2-cp39-cp39-win_amd64.whl (99 kB)
+     |████████████████████████████████| 99 kB 109 kB/s
+Collecting moviepy>=1.0.0
+  Downloading https://pypi.doubanio.com/packages/18/54/01a8c4e35c75ca9724d19a7e4de9dc23f0ceb8769102c7de056113af61c3/moviepy-1.0.3.tar.gz (388 kB)
+     |████████████████████████████████| 388 kB 6.4 MB/s
+Collecting gym==0.26.2
+  Using cached gym-0.26.2-py3-none-any.whl
+Requirement already satisfied: opencv-python>=3.0 in c:\programdata\anaconda3\lib\site-packages (from gymnasium[all]) (4.5.5.62)
+Collecting swig==4.*
+  Downloading https://pypi.doubanio.com/packages/a1/24/cd10c28d32f6d3248324e6a0644ddd5cd3a3c24ae852180e2ac4310dc016/swig-4.1.1-py2.py3-none-win_amd64.whl (2.5 MB)
+     |████████████████████████████████| 2.5 MB 3.2 MB/s
+Collecting pytest==7.0.1
+  Downloading https://pypi.doubanio.com/packages/38/93/c7c0bd1e932b287fb948eb9ce5a3d6307c9fc619db1e199f8c8bc5dad95f/pytest-7.0.1-py3-none-any.whl (296 kB)
+     |████████████████████████████████| 296 kB 6.8 MB/s
+Collecting mujoco==2.2
+  Downloading https://pypi.doubanio.com/packages/ae/a1/3a85fc4325bd662ce2fdcf880cd901dfb8d71db6c6eaabf21f80437e2705/mujoco-2.2.0-cp39-cp39-win_amd64.whl (2.8 MB)
+     |████████████████████████████████| 2.8 MB 3.3 MB/s
+Requirement already satisfied: matplotlib>=3.0 in c:\programdata\anaconda3\lib\site-packages (from gymnasium[all]) (3.4.3)
+Collecting ale-py~=0.8.0
+  Downloading https://pypi.doubanio.com/packages/e9/32/a4b814532961cdef90704e80a8cccb8b9d3222b2201e660eb2ad2c1b0bd5/ale_py-0.8.1-cp39-cp39-win_amd64.whl (952 kB)
+     |████████████████████████████████| 952 kB 198 kB/s
+Collecting imageio>=2.14.1
+  Downloading https://pypi.doubanio.com/packages/ad/5b/fa636ec082247ffc250c2a16bb262f3405654cbb098a70996d99d59677eb/imageio-2.27.0-py3-none-any.whl (3.4 MB)
+     |████████████████████████████████| 3.4 MB 2.2 MB/s
+Collecting mujoco-py<2.2,>=2.1
+  Downloading https://pypi.doubanio.com/packages/37/e5/e7504cb2ded511910c2a2e8f9c9e28af075850eb03a5c5a8daee5d7d9517/mujoco_py-2.1.2.14-py3-none-any.whl (2.4 MB)
+     |████████████████████████████████| 2.4 MB 1.6 MB/s
+Collecting gym-notices>=0.0.4
+  Using cached https://pypi.doubanio.com/packages/25/26/d786c6bec30fe6110fd3d22c9a273a2a0e56c0b73b93e25ea1af5a53243b/gym_notices-0.0.8-py3-none-any.whl (3.0 kB)
+Collecting glfw
+  Downloading https://pypi.doubanio.com/packages/dc/28/68feb00aa5f305e3800e5f1e4d2978f7812b0a8e122b56388221cb6f7fd0/glfw-2.5.9-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-win_amd64.whl (493 kB)
+     |████████████████████████████████| 493 kB 1.3 MB/s
+Collecting absl-py
+  Downloading https://pypi.doubanio.com/packages/dd/87/de5c32fa1b1c6c3305d576e299801d8655c175ca9557019906247b994331/absl_py-1.4.0-py3-none-any.whl (126 kB)
+     |████████████████████████████████| 126 kB 2.2 MB/s
+Collecting pyopengl
+  Downloading https://pypi.doubanio.com/packages/80/07/003fe74d2af04be917035b42c53c7ea9e3abe1e353753cebccfe792b4e52/PyOpenGL-3.1.6-py3-none-any.whl (2.4 MB)
+     |████████████████████████████████| 2.4 MB 3.3 MB/s
+Requirement already satisfied: py>=1.8.2 in c:\programdata\anaconda3\lib\site-packages (from pytest==7.0.1->gymnasium[all]) (1.10.0)
+Requirement already satisfied: pluggy<2.0,>=0.12 in c:\programdata\anaconda3\lib\site-packages (from pytest==7.0.1->gymnasium[all]) (0.13.1)
+Requirement already satisfied: attrs>=19.2.0 in c:\programdata\anaconda3\lib\site-packages (from pytest==7.0.1->gymnasium[all]) (21.2.0)
+Requirement already satisfied: colorama in c:\programdata\anaconda3\lib\site-packages (from pytest==7.0.1->gymnasium[all]) (0.4.4)
+Collecting tomli>=1.0.0
+  Downloading https://pypi.doubanio.com/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: atomicwrites>=1.0 in c:\programdata\anaconda3\lib\site-packages (from pytest==7.0.1->gymnasium[all]) (1.4.0)
+Requirement already satisfied: iniconfig in c:\programdata\anaconda3\lib\site-packages (from pytest==7.0.1->gymnasium[all]) (1.1.1)
+Requirement already satisfied: packaging in c:\programdata\anaconda3\lib\site-packages (from pytest==7.0.1->gymnasium[all]) (21.0)
+Requirement already satisfied: typing-extensions in c:\programdata\anaconda3\lib\site-packages (from ale-py~=0.8.0->gymnasium[all]) (3.10.0.2)
+Collecting importlib-resources
+  Downloading https://pypi.doubanio.com/packages/38/71/c13ea695a4393639830bf96baea956538ba7a9d06fcce7cef10bfff20f72/importlib_resources-5.12.0-py3-none-any.whl (36 kB)
+Collecting importlib-metadata>=4.8.0
+  Downloading https://pypi.doubanio.com/packages/f8/7d/e3adad613703c86d62aa991b45d6f090cf59975078a8c8100b50a0c86948/importlib_metadata-6.1.0-py3-none-any.whl (21 kB)
+Requirement already satisfied: pillow>=8.3.2 in c:\programdata\anaconda3\lib\site-packages (from imageio>=2.14.1->gymnasium[all]) (8.4.0)
+Requirement already satisfied: zipp>=0.5 in c:\programdata\anaconda3\lib\site-packages (from importlib-metadata>=4.8.0->gymnasium[all]) (3.6.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=3.0->gymnasium[all]) (1.3.1)
+Requirement already satisfied: pyparsing>=2.2.1 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=3.0->gymnasium[all]) (3.0.4)
+Requirement already satisfied: python-dateutil>=2.7 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=3.0->gymnasium[all]) (2.8.2)
+Requirement already satisfied: cycler>=0.10 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=3.0->gymnasium[all]) (0.10.0)
+Requirement already satisfied: six in c:\programdata\anaconda3\lib\site-packages (from cycler>=0.10->matplotlib>=3.0->gymnasium[all]) (1.16.0)
+Collecting decorator<5.0,>=4.0.2
+  Downloading https://pypi.doubanio.com/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Requirement already satisfied: tqdm<5.0,>=4.11.2 in c:\programdata\anaconda3\lib\site-packages (from moviepy>=1.0.0->gymnasium[all]) (4.62.3)
+Requirement already satisfied: requests<3.0,>=2.8.1 in c:\programdata\anaconda3\lib\site-packages (from moviepy>=1.0.0->gymnasium[all]) (2.26.0)
+Collecting proglog<=1.0.0
+  Downloading https://pypi.doubanio.com/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl (6.1 kB)
+Collecting imageio_ffmpeg>=0.2.0
+  Downloading https://pypi.doubanio.com/packages/7f/1d/9d9bb0beef06704cb3acb7cab8673b451d4528ee6cc9b231d1284aa1ed75/imageio_ffmpeg-0.4.8-py3-none-win_amd64.whl (22.6 MB)
+     |████████████████████████████████| 22.6 MB 819 kB/s
+Collecting fasteners~=0.15
+  Downloading https://pypi.doubanio.com/packages/bc/a2/7d35ba2c8d9963398fcec49cd814e50a6b920d213928f06fdbbf8aa3289b/fasteners-0.18-py3-none-any.whl (18 kB)
+Requirement already satisfied: Cython>=0.27.2 in c:\programdata\anaconda3\lib\site-packages (from mujoco-py<2.2,>=2.1->gymnasium[all]) (0.29.24)
+Requirement already satisfied: cffi>=1.10 in c:\programdata\anaconda3\lib\site-packages (from mujoco-py<2.2,>=2.1->gymnasium[all]) (1.14.6)
+Requirement already satisfied: pycparser in c:\programdata\anaconda3\lib\site-packages (from cffi>=1.10->mujoco-py<2.2,>=2.1->gymnasium[all]) (2.20)
+Requirement already satisfied: certifi>=2017.4.17 in c:\programdata\anaconda3\lib\site-packages (from requests<3.0,>=2.8.1->moviepy>=1.0.0->gymnasium[all]) (2021.10.8)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\programdata\anaconda3\lib\site-packages (from requests<3.0,>=2.8.1->moviepy>=1.0.0->gymnasium[all]) (1.26.7)
+Requirement already satisfied: idna<4,>=2.5 in c:\programdata\anaconda3\lib\site-packages (from requests<3.0,>=2.8.1->moviepy>=1.0.0->gymnasium[all]) (3.2)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\programdata\anaconda3\lib\site-packages (from requests<3.0,>=2.8.1->moviepy>=1.0.0->gymnasium[all]) (2.0.4)
+Building wheels for collected packages: box2d-py, moviepy
+  Building wheel for box2d-py (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'C:\ProgramData\Anaconda3\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Windows To Go\\AppData\\Local\\Temp\\pip-install-139fex8z\\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\\setup.py'"'"'; __file__='"'"'C:\\Users\\Windows To Go\\AppData\\Local\\Temp\\pip-install-139fex8z\\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\Windows To Go\AppData\Local\Temp\pip-wheel-yeb6to29'
+       cwd: C:\Users\Windows To Go\AppData\Local\Temp\pip-install-139fex8z\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\
+  Complete output (16 lines):
+  Using setuptools (version 58.0.4).
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.9
+  creating build\lib.win-amd64-3.9\Box2D
+  copying library\Box2D\Box2D.py -> build\lib.win-amd64-3.9\Box2D
+  copying library\Box2D\__init__.py -> build\lib.win-amd64-3.9\Box2D
+  creating build\lib.win-amd64-3.9\Box2D\b2
+  copying library\Box2D\b2\__init__.py -> build\lib.win-amd64-3.9\Box2D\b2
+  running build_ext
+  building 'Box2D._Box2D' extension
+  swigging Box2D\Box2D.i to Box2D\Box2D_wrap.cpp
+  swig.exe -python -c++ -IBox2D -small -O -includeall -ignoremissing -w201 -globals b2Globals -outdir library\Box2D -keyword -w511 -D_SWIG_KWARGS -o Box2D\Box2D_wrap.cpp Box2D\Box2D.i
+  error: command 'swig.exe' failed: None
+  ----------------------------------------
+  ERROR: Failed building wheel for box2d-py
+  Running setup.py clean for box2d-py
+  Building wheel for moviepy (setup.py) ... done
+  Created wheel for moviepy: filename=moviepy-1.0.3-py3-none-any.whl size=110744 sha256=1e28590369df904faa5ae7c2890e804921b3e9c24c0b736be58fe07c770d1eed
+  Stored in directory: c:\users\windows to go\appdata\local\pip\cache\wheels\4d\c1\6b\886544e84af994d42de3f5e4957477883b2c3f0d354d61bfb6
+Successfully built moviepy
+Failed to build box2d-py
+Installing collected packages: tomli, pyopengl, proglog, importlib-resources, importlib-metadata, imageio-ffmpeg, imageio, gymnasium-notices, gym-notices, glfw, fasteners, decorator, absl-py, swig, pytest, mujoco-py, mujoco, moviepy, lz4, gymnasium, gym, box2d-py, ale-py
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 4.8.1
+    Uninstalling importlib-metadata-4.8.1:
+      Successfully uninstalled importlib-metadata-4.8.1
+  Attempting uninstall: imageio
+    Found existing installation: imageio 2.9.0
+    Uninstalling imageio-2.9.0:
+      Successfully uninstalled imageio-2.9.0
+  Attempting uninstall: decorator
+    Found existing installation: decorator 5.1.0
+    Uninstalling decorator-5.1.0:
+      Successfully uninstalled decorator-5.1.0
+  Attempting uninstall: pytest
+    Found existing installation: pytest 6.2.4
+    Uninstalling pytest-6.2.4:
+      Successfully uninstalled pytest-6.2.4
+    Running setup.py install for box2d-py ... error
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\ProgramData\Anaconda3\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Windows To Go\\AppData\\Local\\Temp\\pip-install-139fex8z\\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\\setup.py'"'"'; __file__='"'"'C:\\Users\\Windows To Go\\AppData\\Local\\Temp\\pip-install-139fex8z\\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Windows To Go\AppData\Local\Temp\pip-record-_b7vtjco\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\ProgramData\Anaconda3\Include\box2d-py'
+         cwd: C:\Users\Windows To Go\AppData\Local\Temp\pip-install-139fex8z\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\
+    Complete output (28 lines):
+    Using setuptools (version 58.0.4).
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.9
+    creating build\lib.win-amd64-3.9\Box2D
+    copying library\Box2D\Box2D.py -> build\lib.win-amd64-3.9\Box2D
+    copying library\Box2D\__init__.py -> build\lib.win-amd64-3.9\Box2D
+    creating build\lib.win-amd64-3.9\Box2D\b2
+    copying library\Box2D\b2\__init__.py -> build\lib.win-amd64-3.9\Box2D\b2
+    running build_ext
+    building 'Box2D._Box2D' extension
+    swigging Box2D\Box2D.i to Box2D\Box2D_wrap.cpp
+    swig.exe -python -c++ -IBox2D -small -O -includeall -ignoremissing -w201 -globals b2Globals -outdir library\Box2D -keyword -w511 -D_SWIG_KWARGS -o Box2D\Box2D_wrap.cpp Box2D\Box2D.i
+    Box2D\Common\b2Math.h(67) : Warning 302: Identifier 'b2Vec2' redefined by %extend (ignored),
+    Box2D\Box2D_math.i(47) : Warning 302: %extend definition of 'b2Vec2'.
+    Box2D\Common\b2Math.h(158) : Warning 302: Identifier 'b2Vec3' redefined by %extend (ignored),
+    Box2D\Box2D_math.i(168) : Warning 302: %extend definition of 'b2Vec3'.
+    Box2D\Common\b2Math.h(197) : Warning 302: Identifier 'b2Mat22' redefined by %extend (ignored),
+    Box2D\Box2D_math.i(301) : Warning 302: %extend definition of 'b2Mat22'.
+    Box2D\Common\b2Math.h(271) : Warning 302: Identifier 'b2Mat33' redefined by %extend (ignored),
+    Box2D\Box2D_math.i(372) : Warning 302: %extend definition of 'b2Mat33'.
+    Box2D\Collision\b2DynamicTree.h(44) : Warning 312: Nested union not currently supported (ignored).
+    Box2D\Common\b2Settings.h(144) : Warning 506: Can't wrap varargs with keyword arguments enabled
+    Box2D\Common\b2Math.h(91) : Warning 509: Overloaded method b2Vec2::operator ()(int32) effectively ignored,
+    Box2D\Common\b2Math.h(85) : Warning 509: as it is shadowed by b2Vec2::operator ()(int32) const.
+    error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'C:\ProgramData\Anaconda3\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Windows To Go\\AppData\\Local\\Temp\\pip-install-139fex8z\\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\\setup.py'"'"'; __file__='"'"'C:\\Users\\Windows To Go\\AppData\\Local\\Temp\\pip-install-139fex8z\\box2d-py_d067fc89eaa44d3aa56830c36f9cad84\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Windows To Go\AppData\Local\Temp\pip-record-_b7vtjco\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\ProgramData\Anaconda3\Include\box2d-py' Check the logs for full command output.
+
+C:\Windows\system32>
