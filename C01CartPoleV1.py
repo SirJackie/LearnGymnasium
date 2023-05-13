@@ -9,7 +9,7 @@ myAction = 0
 while True:
     env.render()
     # action = env.action_space.sample()
-    observation, reward, terminated, done, info = env.step(myAction)
+    observation, reward, terminated, truncated, info = env.step(myAction)
 
     cartPosition = observation[0]
     cartVelocity = observation[1]
@@ -25,6 +25,6 @@ while True:
     if terminated:
         # env.reset()
         break
-    if done:
+    if truncated:
         break
 env.close()
