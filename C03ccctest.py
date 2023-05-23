@@ -63,8 +63,7 @@ class DQNAgent:
 
 
 # 创建CartPole环境
-env = gym.make('CartPole-v1')
-# env = gym.make('CartPole-v1', render_mode="human")
+env = gym.make('CartPole-v1', render_mode=None)
 input_size = env.observation_space.shape[0]
 output_size = env.action_space.n
 
@@ -74,7 +73,6 @@ agent = DQNAgent(input_size, output_size)
 # 训练DQN代理
 episodes = 200
 for episode in range(episodes):
-    # state = env.reset()
     state, info = env.reset()
     state = torch.tensor(state, dtype=torch.float32).unsqueeze(0).to(agent.device)
 
@@ -83,7 +81,6 @@ for episode in range(episodes):
 
     while not done:
         action = agent.select_action(state)
-        # next_state, reward, done, _ = env.step(action.item())
         next_state, reward, done, truncated, info = env.step(action.item())
         next_state = torch.tensor(next_state, dtype=torch.float32).unsqueeze(0).to(agent.device)
         reward = torch.tensor([reward], dtype=torch.float32).to(agent.device)
@@ -107,7 +104,6 @@ for episode in range(episodes):
 # 测试训练好的模型
 env.close()
 env = gym.make('CartPole-v1', render_mode="human")
-# state = env.reset()
 state, info = env.reset()
 state = torch.tensor(state, dtype=torch.float32).unsqueeze(0).to(agent.device)
 done = False
@@ -115,7 +111,6 @@ total_reward = 0
 
 while not done:
     action = agent.select_action(state)
-    # next_state, reward, done, _ = env.step(action.item())
     next_state, reward, done, truncated, info = env.step(action.item())
     next_state = torch.tensor(next_state, dtype=torch.float32).unsqueeze(0).to(agent.device)
     reward = torch.tensor([reward], dtype=torch.float32).to(agent.device)
